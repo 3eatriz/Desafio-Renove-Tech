@@ -8,10 +8,10 @@
 3- Precisa ter o http-server instalado na past "html" onde estão os arquivos html <br>
 4- Pode ser que precise alterar a política de execução de scripts no  PowerShell <br>
 4.1- Para fazer isso basta abrir o Windows Power Shell como Administrador <br>
-4.2- Digital o comando "Get-ExecutionPolicy" para ver qual a política de execução atual <br>
+4.2- Digita o comando "Get-ExecutionPolicy" para ver qual a política de execução atual <br>
 4.3- Para alterar digite "Set-ExecutionPolicy RemoteSigned" e precione "Y" ou "S" dependendo da linguagem do seu computador está inglês ou português <br>
 4.4- Por fim digite novamente "Get-ExecutionPolicy" para confirmar que a política agora está "RemoteSigned" <br>
-5- Pode acessar por qualquer um dos links oferecidos <br>
+5- No terminal da pasta "html" digite: http-server e pode acessar por qualquer um dos links oferecidos <br>
 6- Pode ser que você precise ativar o FormSubmit no e-mail, então vai precisar alterar o e-mail para o seu, na única tag  "form" do html e no campo "action", lá vai ter a url e no final o e-mail, você pode colocar o seu e vai ver as informações preenchidas no campo chegando no seu e-mail. <br>
 
 <h2 style="color: #F9AE2A;">Sugestões de melhorias:</h2>
